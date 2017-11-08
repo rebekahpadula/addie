@@ -1,0 +1,15 @@
+@mixin base {
+    &:first-child {
+        flex-grow: 1;
+        flex-basis: 100%;
+        margin-bottom: 2em;
+    }
+}
+
+&__item {
+    @include base;
+
+    &:not(:last-child) {
+        margin-right: 1em;
+    }
+}

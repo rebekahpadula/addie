@@ -1,0 +1,9 @@
+@mixin base {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+&__list {
+    @include base;
+}

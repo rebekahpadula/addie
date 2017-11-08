@@ -1,0 +1,8 @@
+@mixin base {
+    height: 100vh;
+    padding: 40px;
+}
+
+.container {
+    @include base;
+}
