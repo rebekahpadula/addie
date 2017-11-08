@@ -1,0 +1,9 @@
+@mixin base {
+    @media screen and (min-width: 600px) {
+        flex: 0 1 auto;
+    }
+}
+
+&__social {
+    @include base;
+}

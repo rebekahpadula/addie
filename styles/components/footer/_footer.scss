@@ -1,0 +1,17 @@
+@mixin base {
+    background-color: #333;
+    padding: 5px 40px;
+    text-align: center;
+
+    @media screen and (min-width: 600px) {
+        text-align: left;
+        display: flex;
+    }
+}
+
+.footer {
+    @include base;
+
+    @import 'copyright';
+    @import 'social';
+}

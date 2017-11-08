@@ -1,0 +1,9 @@
+@mixin base {
+    @media screen and (min-width: 600px) {
+        flex: 1 1 0;
+    }
+}
+
+&__copyright {
+    @include base;
+}
