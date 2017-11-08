@@ -1,7 +1,7 @@
 @mixin base {
-    flex-grow: 0.5;
+    
 }
 
-.header {
+&__list {
     @include base;
 }

@@ -1,6 +1,8 @@
 @mixin base {
     height: 100vh;
     padding: 40px;
+    display: flex;
+    flex-direction: column;
 }
 
 .container {

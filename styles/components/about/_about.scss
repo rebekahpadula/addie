@@ -1,0 +1,12 @@
+@mixin base {
+    align-self: center;
+    align-content: center;
+    flex-grow: 1;
+}
+
+.about {
+    @include base;
+
+    @import 'list';
+    @import 'item';
+}
